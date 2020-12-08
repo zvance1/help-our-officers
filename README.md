@@ -28,26 +28,26 @@ To perform this analysis, I will use a data set named "BPD Part 1 Victim Based C
 
 **Python Notebooks:**
 <br>
-[Data Load and Clean](https://github.com/zvance1/predict-crime/blob/main/notebooks/load_and_clean.ipynb)
+[Data Load and Clean](https://github.com/zvance1/help-our-officers/blob/main/notebooks/load_and_clean.ipynb)
 <br>
-[Data Exploration](https://github.com/zvance1/predict-crime/blob/main/notebooks/explore.ipynb)
+[Data Exploration](https://github.com/zvance1/help-our-officers/blob/main/notebooks/explore.ipynb)
 <br>
 [ML Data Analysis](https://github.com/zvance1/predict-crime/blob/main/notebooks/ml-analysis.ipynb)
 Note: Not all exploratory analysis made it into the final techincal report - only what I saw as most relevant.
 <br>
-[Technical Notebook](https://github.com/zvance1/predict-crime/blob/main/notebooks/technical_report.ipynb)
+[Technical Notebook](https://github.com/zvance1/help-our-officers/blob/main/notebooks/technical_report.ipynb)
 
 **Data Folder (all data in csv format, used in our final python notebooks):**
 <br>
-[Data](https://github.com/zvance1/predict-crime/tree/main/data)
+[Data](https://github.com/zvance1/help-our-officers/tree/main/data)
 
 **Data Visualizations Folder (all visualizations used in our final python notebook):**
 <br>
-[Data Visualizations](https://github.com/zvance1/predict-crime/tree/main/images)
+[Data Visualizations](https://github.com/zvance1/help-our-officers/tree/main/images)
 
 **Python Folder (python technical report notebook, notebook for the ML analysis, and one for cleaning):**
 <br>
-[Python Files and Notebooks](https://github.com/zvance1/predict-crime/tree/main/notebooks)
+[Python Files and Notebooks](https://github.com/zvance1/help-our-officers/tree/main/notebooks)
 
 
 # Project Info
