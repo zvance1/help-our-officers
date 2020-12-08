@@ -1,5 +1,5 @@
 
-# Summary
+# Overview
 In this project I will fetch Baltimore City crime data to see if it can be used within models to be able to predict the weapon used in a given victim based crime.  The task at hand is to use classification models to classify the weapon used as one of: FIREARM, KNIFE, HANDS, OTHER.
 
 # Goals
@@ -19,7 +19,7 @@ The motivation in analyzing this data is to find patterns and trends in crimes a
 
 To perform this analysis, I will use a data set named "BPD Part 1 Victim Based Crime Data" from Open Baltimore.  This data is updated every Monday, with a 9 day time lag to minimize changes to the data as records move throughout the BPD review process.  I exported this data as a CSV file and began the cleaning of it from there.  The data contains 16 columns and 313,634 rows.  One limitation is that a lot of the weapons in the dataset are null, since for the purpose of this project our goal is to predict the type of weapon used, we will drop those rows with a null weapon.  These cases where the weapon is null include cases where it is fairly obvious that no weapon is really applicable such as a car theft where there was no intervention between people, just the car stolen; or a burglary where the suspect broke in somewhere and robbed the place without a weapon or any interaction with a victim.  For the purpose of this project we will focus on the victim based crimes where a weapon was used.  This leaves us with 66908 crimes to base our model on which should still be plenty.  Another limitation is that the weapon may be classified as only one of 4 categories: HANDS, KNIFE, FIREARM, OTHER.  With this, we can only predict one of those from this dataset and the OTHER category may not be too useful for an officer to know about.  But the cases of knowing when a FIREARM / KNIFE / HANDS are used would be very useful it is still a very important prediction as that informaiton is vital to saving lives on the streets of Baltimore.
 
-# Summary of Files
+# Table of Contents
 
 **Data Source:**
 <br>
@@ -63,5 +63,5 @@ Libraries    : pandas, sklearn, matplotlib
 
 <pre>
 Duration     : September 2020
-Last Update  : 10.29.2020
+Last Update  : 12.8.2020
 </pre>
